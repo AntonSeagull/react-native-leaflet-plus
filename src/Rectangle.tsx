@@ -1,12 +1,12 @@
 import {
-  useEffect,
-  useRef,
+    useEffect,
+    useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
 import type { RectangleProps } from './types';
 
-const Rectangle = (props: RectangleProps) => {
+export const Rectangle = (props: RectangleProps) => {
 
 
     const { addRectangle, removeRectangle } = useLeafletMapContext();
@@ -33,5 +33,3 @@ const Rectangle = (props: RectangleProps) => {
 
     return null;
 }
-
-export default Rectangle;

@@ -1,12 +1,12 @@
 import {
-  useEffect,
-  useRef,
+    useEffect,
+    useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
 import type { MarkerProps } from './types';
 
-const Marker = (props: MarkerProps) => {
+export const Marker = (props: MarkerProps) => {
 
 
     const { addMarker, removeMarker } = useLeafletMapContext();
@@ -33,5 +33,3 @@ const Marker = (props: MarkerProps) => {
 
     return null;
 }
-
-export default Marker;

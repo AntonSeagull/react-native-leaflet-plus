@@ -1,12 +1,12 @@
 import {
-  useEffect,
-  useRef,
+    useEffect,
+    useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
 import type { PolylineProps } from './types';
 
-const Polyline = (props: PolylineProps) => {
+export const Polyline = (props: PolylineProps) => {
 
 
     const { addPolyline, removePolyline } = useLeafletMapContext();
@@ -33,5 +33,3 @@ const Polyline = (props: PolylineProps) => {
 
     return null;
 }
-
-export default Polyline;

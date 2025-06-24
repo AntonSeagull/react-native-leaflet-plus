@@ -1,12 +1,12 @@
 import {
-  useEffect,
-  useRef,
+    useEffect,
+    useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
 import type { PolygonProps } from './types';
 
-const Polygon = (props: PolygonProps) => {
+export const Polygon = (props: PolygonProps) => {
 
 
     const { addPolygon, removePolygon } = useLeafletMapContext();
@@ -33,5 +33,3 @@ const Polygon = (props: PolygonProps) => {
 
     return null;
 }
-
-export default Polygon;
