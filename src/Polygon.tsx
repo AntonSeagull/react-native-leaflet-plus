@@ -1,10 +1,10 @@
 import {
-    useEffect,
-    useRef,
+  useEffect,
+  useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
-import { PolygonProps } from './types';
+import type { PolygonProps } from './types';
 
 const Polygon = (props: PolygonProps) => {
 

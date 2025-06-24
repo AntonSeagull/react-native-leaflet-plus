@@ -1,6 +1,6 @@
 {
   "name": "react-native-leaflet-plus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Powerful and flexible mapping library that brings full Leaflet support to React Native apps. It includes out-of-the-box support for vector maps like Protomaps, interactive editing of map features, and a rich set of customization options. Whether you’re building navigation, geospatial data visualization, or interactive mapping tools — this library gives you everything you need in one package.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AntonSeagull/react-native-leaflet-plus/react-native-leaflet-plus.git"
+    "url": "git+https://github.com/AntonSeagull/react-native-leaflet-plus.git"
   },
   "author": "Anton Seagull <hi@antonseagull.com> (https://github.com/AntonSeagull/react-native-leaflet-plus)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AntonSeagull/react-native-leaflet-plus/react-native-leaflet-plus/issues"
+    "url": "https://github.com/AntonSeagull/react-native-leaflet-plus/issues"
   },
-  "homepage": "https://github.com/AntonSeagull/react-native-leaflet-plus/react-native-leaflet-plus#readme",
+  "homepage": "https://github.com/AntonSeagull/react-native-leaflet-plus#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

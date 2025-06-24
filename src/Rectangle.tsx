@@ -1,10 +1,10 @@
 import {
-    useEffect,
-    useRef,
+  useEffect,
+  useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
-import { RectangleProps } from './types';
+import type { RectangleProps } from './types';
 
 const Rectangle = (props: RectangleProps) => {
 

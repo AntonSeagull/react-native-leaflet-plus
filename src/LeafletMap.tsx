@@ -1,43 +1,43 @@
 import {
-    createContext,
-    forwardRef,
-    useCallback,
-    useContext,
-    useEffect,
-    useImperativeHandle,
-    useRef,
-    useState,
+  createContext,
+  forwardRef,
+  useCallback,
+  useContext,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
 } from 'react';
 
 import {
-    Animated,
-    type GestureResponderEvent,
-    View,
-    type ViewStyle,
+  Animated,
+  type GestureResponderEvent,
+  View,
+  type ViewStyle,
 } from 'react-native';
 import WebView from 'react-native-webview';
 import type { WebViewErrorEvent } from 'react-native-webview/lib/WebViewTypes';
 
 import type {
-    FitBoundsOptions,
-    LatLngExpression,
-    LatLngTuple,
-    LeafletEventHandlerFn,
-    LeafletMapRef,
-    MapOptions,
-    MarkerProps,
-    PanInsideOptions,
-    PanOptions,
-    PointExpression,
-    PointTuple,
-    PolygonProps,
-    PolylineProps,
-    ProtomapsLayerProps,
-    RectangleProps,
-    ZoomOptions,
-    ZoomPanOptions,
+  FitBoundsOptions,
+  LatLngExpression,
+  LatLngTuple,
+  LeafletEventHandlerFn,
+  LeafletMapRef,
+  MapOptions,
+  MarkerProps,
+  PanInsideOptions,
+  PanOptions,
+  PointExpression,
+  PointTuple,
+  PolygonProps,
+  PolylineProps,
+  ProtomapsLayerProps,
+  RectangleProps,
+  TileLayerProps,
+  ZoomOptions,
+  ZoomPanOptions,
 } from './types';
-import { TileLayerProps } from './types';
 import { getWebContent } from './webContent';
 
 export interface ConvertFilter {
@@ -139,7 +139,7 @@ const defaultLeafletCSSLink = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'
 const defaultLeafletJSLink = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
 const defaultProtomapsJSLink = 'https://unpkg.com/protomaps-leaflet@5.0.1/dist/protomaps-leaflet.js';
 const defaultLeafletDrawJSLink = 'https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.js';
-const defaultLeafletDrawCSSLink = 'https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.css';
+//const defaultLeafletDrawCSSLink = 'https://cdn.jsdelivr.net/npm/leaflet-draw@1.0.4/dist/leaflet.draw.css';
 
 type LeafletMapRegistry = {
     addMarker: (propsMarker: MarkerProps) => void;

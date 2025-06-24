@@ -1,10 +1,10 @@
 import {
-    useEffect,
-    useRef,
+  useEffect,
+  useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
-import { MarkerProps } from './types';
+import type { MarkerProps } from './types';
 
 const Marker = (props: MarkerProps) => {
 

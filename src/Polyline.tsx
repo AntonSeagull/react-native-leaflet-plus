@@ -1,10 +1,10 @@
 import {
-    useEffect,
-    useRef,
+  useEffect,
+  useRef,
 } from 'react';
 
 import { useLeafletMapContext } from './LeafletMap';
-import { PolylineProps } from './types';
+import type { PolylineProps } from './types';
 
 const Polyline = (props: PolylineProps) => {
 
