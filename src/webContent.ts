@@ -212,6 +212,11 @@ ${params.functionsMirrorJS}
     }
 
 
+     .leaflet-div-icon{
+        background: transparent !important;
+        border: none !important;
+        background-color: transparent !important;
+    }
     
 
     .leaflet-container {
