@@ -1,6 +1,6 @@
 {
   "name": "react-native-leaflet-plus",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Powerful and flexible mapping library that brings full Leaflet support to React Native apps. It includes out-of-the-box support for vector maps like Protomaps, interactive editing of map features, and a rich set of customization options. Whether you’re building navigation, geospatial data visualization, or interactive mapping tools — this library gives you everything you need in one package.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
